@@ -1,0 +1,15 @@
+﻿function displaySubMenu(listId)
+{
+    switch(listId)
+		{
+			case 'trAboutSwagati':
+  				document.getElementById("trAboutSwagati").style.display ='block';
+  				document.getElementById("trNewsNEvents").style.display ='none';	
+				break;    
+			case 'trNewsNEvents':
+  				document.getElementById("trNewsNEvents").style.display ='block';
+  				document.getElementById("trAboutSwagati").style.display ='none';	
+				break;    
+ 		}	
+	
+}
